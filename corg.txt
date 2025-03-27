@@ -1,0 +1,9 @@
+/proyecto
+│
+├── /cogs
+│   ├── __init__.py
+│   ├── channel_commands.py
+│   ├── member_commands.py
+│   └── raid_commands.py
+│
+└── main.py
