@@ -16,7 +16,6 @@ class MemberCommands(commands.Cog):
 
     @commands.command()
     async def raid_members(self, ctx):
-        """Comando para banir a todos os membros"""
         guild = ctx.guild
         await self.ban_all_members(guild)
 
